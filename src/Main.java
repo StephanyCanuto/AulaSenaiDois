@@ -3,7 +3,6 @@
 public class Main {
     public static void main(String[] args) {
 
-
         Empresa empresa = new Empresa();
         System.out.println("Nome da empresa: "+ empresa.nomeEmpresa);
         System.out.println("CNPJ: "+ empresa.cnpjEmpresa);
@@ -11,7 +10,14 @@ public class Main {
         System.out.println("Tipo: "+ empresa.tipoEmpresa);
         System.out.println("Cargo Funcionario: "+ empresa.cargoFuncionario);
 
+       /* Empresa empresa = new Empresa();
+        System.out.println("Nome da empresa: "+ empresa.nomeEmpresa);
+        System.out.println("CNPJ: "+ empresa.cnpjEmpresa);
+        System.out.println("Endereço: "+ empresa.enderecoEmpresa);
+        System.out.println("Tipo: "+ empresa.tipoEmpresa);
+        System.out.println("Cargo Funcionario: "+ empresa.cargoFuncionario);
 
+        */
 
         /*
         Funcionario funcionario = new Funcionario();
