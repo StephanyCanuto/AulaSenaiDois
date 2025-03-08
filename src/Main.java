@@ -3,6 +3,11 @@
 public class Main {
     public static void main(String[] args) {
 
+        //testando nova branch
+        EmpresaSetor empresaSetor =  new EmpresaSetor();
+        System.out.println("Nome do setor: "+ empresaSetor.nomeSetorFinanca);
+        System.out.println("Nome do setor: "+ empresaSetor.nomeSetorRH);
+
         Empresa empresa = new Empresa();
         System.out.println("Nome da empresa: "+ empresa.nomeEmpresa);
         System.out.println("CNPJ: "+ empresa.cnpjEmpresa);
